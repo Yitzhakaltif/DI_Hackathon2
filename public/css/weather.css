@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://wallpapercave.com/wp/ijZaCCZ.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'roboto', sans-serif;
+}
+
+
+.logout{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #fff;
+    background: none;
+    text-decoration: underline;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.greeting{
+    font-family: 'dosis';
+    font-size: 100px;
+    color: #fff;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.input1{
+    text-align: center;
+    margin: 100px auto;
+}
+
+input[type="submit"]{
+    padding: 15px 30px;
+    background: #e7e7e7;
+    border: none;
+    border-radius: 1px;
+    font-family: "Nunito",sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.input1 input[type="text"]{
+    width: 600px;
+    height: 55px;
+    padding: 5px 10px;
+    background: #e7e7e7;
+    border: none;
+    border-radius: 1px;
+    font-family: "Nunito",sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card{
+    width: 50%;
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+
+
+.card h1{
+    padding: 5px 0;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.card p{
+    text-align: center;
+    margin: 40px 0;
+    font-size: 20px ;
+    color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
