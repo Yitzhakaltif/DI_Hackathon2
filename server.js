@@ -8,7 +8,7 @@ const db = knex({
         host: 'localhost',
         port: 5432,
         user: 'postgres',
-        password: 'YitzhakDI',
+        password: '<Your Password>',
         database: 'WeatherApp'
     }
 })
